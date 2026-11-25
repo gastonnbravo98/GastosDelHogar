@@ -1,0 +1,25 @@
+{
+  "name": "gastos-hogar",
+  "version": "1.0.0",
+  "description": "Aplicación para gestionar gastos del hogar",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "dev": "live-server --port=3000",
+    "build": "echo 'Build completado'",
+    "test": "echo 'No hay tests configurados'"
+  },
+  "keywords": ["gastos", "hogar", "finanzas", "presupuesto"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "bootstrap": "^5.3.2",
+    "font-awesome": "^4.7.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.1"
+  }
+} 
